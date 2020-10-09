@@ -3,6 +3,10 @@
 	font-family: 'Roboto';
 	font-weight: 900;
 	padding-right: 0;
+	transition: .3s;
+}
+.nav-item:hover {
+	color: #ffe600;
 }
 .header-top {
 	padding-top: 1.5em;
@@ -27,6 +31,13 @@
 	font-family: 'Roboto';
 	font-weight: 900;
 	font-size: .9em;
+	transition: .3s;
+}
+.sendmessage:hover {
+	width: 10em;
+	height: 3em;
+	background-color: white;
+	box-shadow: inset 0 0 0 .3em #ffe600;
 }
 .txtsend {
 	padding-top: .6em;
@@ -53,9 +64,10 @@
 	font-family: 'Roboto';
 	font-weight: 900;
 	font-size: .9em;
+	transition: .3s;
 }
-.nav-item-2:hover {
-
+.nav-item-2:hover, .newest:hover {
+	color: #ffe600;
 }
 .nav-ht-2 {
 	padding-top: 2em;
@@ -103,6 +115,9 @@
 	height: 550px;
 	background-color: #edf2f6;
 }
+.c-o-1, .c-t-1, .c-th-1 {
+	margin-bottom: 20px;
+}
 .showclick {
 	width: 10em;
 	height: 3.4em;
@@ -112,6 +127,13 @@
 	font-weight: 900;
 	font-size: .9em;
 	margin: auto;
+	transition: .3s;
+}
+.showclick:hover {
+	width: 10em;
+	height: 3.4em;
+	background-color: white;
+	box-shadow: inset 0 0 0 .3em #ffe600;
 }
 .showme {
 	padding-top: 1em;
@@ -161,18 +183,24 @@
 	font-weight: 900;
 	font-size: 1.5em;
 	padding-top: 2.7em;
+	transition: .3s;
 }
 .littxt {
 	font-family: 'Roboto';
 	font-weight: 900;
 	font-size: 1em;
 	padding-top: 3em;
+	transition: .3s;
 }
 .readmore {
 	font-family: 'Roboto';
 	font-weight: 900;
 	font-size: 1em;
 	padding-top: 3em;
+	transition: .3s;
+}
+.little:hover, .littxt:hover, .readmore:hover {
+	color: #ffe600;
 }
 .sec-2 {
 	padding-bottom: 7em;
@@ -194,4 +222,139 @@
 	font-size: .8em;
 	color: white;
 	padding-bottom: 1em;
+}
+.blog {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 3.7em;
+}
+.blogtxt {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: .8em;
+	padding-top: 2em;
+	padding-bottom: 3em;
+}
+.blog-1 {
+	height: 400px;
+}
+.yellowb {
+	width: 350px;
+	height: 250px;
+	background-color: #ffe600;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 2em;
+	padding-top: 3em;
+}
+.blogone {
+	width: 350px;
+	height: 250px;
+	background-color: #edf2f6;
+}
+.grey {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: .8em;
+	padding-top: 2em;
+	padding-left: 2em;
+}
+.supertxt, .may {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: .7em;
+	padding-top: 2em;
+	padding-left: 2em;
+}
+.may {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: .7em;
+	padding-top: 2em;
+	padding-left: 2em;
+}
+.ustxt {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 3.7em;
+}
+.ustxt-2 {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: .8em;
+	padding-top: 2em;
+	padding-bottom: 3em;
+}
+.contactus {
+	padding-top: 7em;
+}
+.sendusmg {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 2em;
+	padding-top: 1.8em;
+}
+.nameus, .email, .messageus {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: .8em;
+	padding-top: 2em;
+	padding-bottom: 3em;
+	padding-left: 2em;
+}
+.fluid-img {
+	text-align: center;
+}
+.clickus {
+	width: 10em;
+	height: 3.4em;
+	background-color: #ffe600;
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: .9em;
+	transition: .3s;
+	padding-top: 1em;
+	margin-top: 5em;
+}
+.clickus:hover {
+	width: 10em;
+	height: 3.4em;
+	background-color: white;
+	box-shadow: inset 0 0 0 .3em #ffe600;
+}
+.sendusblock {
+	background-color: #edf2f6;
+	height: 500px;
+}
+.colthre {
+	padding-top: 3em;
+	text-align: center;
+	padding-left: 16em;
+}
+.coltxt-3 {
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: .9em;
+	padding-top: 1em;
+}
+.iconsrow {
+	padding-top: 3em;
+	padding-left: 11em;
+	padding-right: 11em;
+}
+footer {
+	background-color: #1e1e1e;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	margin-top: 3em;
+}
+.footcol, .footcoll {
+	color: white;
+	font-size: .9em;
+	transition: .3s;
+}
+.footcoll:hover {
+	color: #ffe600;
 }
